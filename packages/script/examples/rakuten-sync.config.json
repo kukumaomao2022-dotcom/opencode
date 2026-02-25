@@ -1,0 +1,20 @@
+{
+  "mode": "min",
+  "dry_run": false,
+  "once": true,
+  "sku_file": "packages/script/examples/rakuten/skus.txt",
+  "stores": [
+    {
+      "name": "rakuten-main",
+      "type": "file",
+      "pull_file": "packages/script/examples/rakuten/store-a.csv",
+      "push_file": "packages/script/examples/rakuten/out-main.csv"
+    },
+    {
+      "name": "rakuten-sub",
+      "type": "file",
+      "pull_file": "packages/script/examples/rakuten/store-b.csv",
+      "push_file": "packages/script/examples/rakuten/out-sub.csv"
+    }
+  ]
+}
